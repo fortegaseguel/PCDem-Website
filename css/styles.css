@@ -1,0 +1,265 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: #1b181f;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: Open sans, sans-serif;
+  margin: 0;
+  background-color: rgba(255, 251, 161, 0.7);
+}
+
+h1 {
+  font-family: Pattaya;
+  text-align: center;
+  color: rgba(0, 0, 255, 0.6);
+  -webkit-text-stroke: 1px rgba(0, 0, 139, 0.5);
+}
+
+/*PAGINA INICIO*/
+
+/*MENU*/
+
+.logo {
+  width: 40%;
+  margin-left: 100px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin: auto;
+  }
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.sloganText {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgba(7, 230, 255, 1);
+  -webkit-text-stroke: 1px rgba(0, 0, 139, 0.3);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(27, 24, 31, 0.3);
+  background-color: #fffbca;
+}
+
+.navbar li {
+  line-height: 30px;
+  margin-left: 20px;
+  color: #07e6ff;
+}
+
+.dropdown-menu {
+  background-color: #fffbca;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(3, 251, 185, 0.2);
+}
+
+.navbar a {
+  text-align: left;
+}
+
+.rainbowText {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.instaButton {
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Aumento tamaño letras Menu Activo*/
+.activo {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 1000px) {
+  .activo {
+    transform: none;
+    text-decoration: underline;
+  }
+}
+
+.subactivo {
+  font-weight: bolder;
+}
+@media screen and (max-width: 1000px) {
+  .subactivo {
+    text-decoration: underline;
+  }
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  border-bottom: 1px solid rgba(27, 24, 31, 0.3);
+  background-color: rgba(3, 251, 185, 0.2);
+}
+
+.display-3 {
+  font-weight: bold;
+  color: rgba(0, 0, 255, 0.6);
+  text-align: left;
+  font-size: 60px;
+  -webkit-text-stroke: 1px rgba(0, 0, 139, 0.5);
+}
+
+.lead {
+  text-align: justify;
+  font-weight: 400;
+}
+
+/*Seccion de texto*/
+
+.text_tips {
+  text-align: justify;
+}
+
+/*Oculta Texto excesivo en resolucion mobile*/
+@media screen and (max-width: 576px) {
+  .hideText {
+    display: none;
+  }
+}
+
+.img_welcome {
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(27, 24, 31, 0.3);
+}
+
+/*INFORMACION*/
+
+/*Carrusel Informativo*/
+#carrusel {
+  padding: 10px;
+  border: 1px solid rgba(27, 24, 31, 0.3);
+}
+
+.carousel-control-prev:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.carousel-control-next {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+/*Imagenes de Apoyo*/
+.img_apoyo {
+  padding: 20px;
+}
+
+/*TIPS PARA CUIDADORES*/
+
+/*Reja de tips*/
+.grid {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(27, 24, 31, 0.3);
+  margin: 10px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.descripcionGrid {
+  font-size: 10px;
+  height: 50%;
+}
+
+/*Tips Carrusel Ocultos*/
+.tips {
+  display: none;
+}
+
+.carruselConsejos {
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .carruselConsejos {
+    width: 100%;
+  }
+}
+
+.imgContacto {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid rgba(27, 24, 31, 0.3);
+}
+
+@media screen and (max-width: 576px) {
+  .imgContacto {
+    width: 100%;
+  }
+}
+
+.googleform {
+  position: relative;
+  width: 100%;
+}
+
+/* ACERCA DE MI */
+
+.saludo {
+  text-align: justify;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.img_profile {
+  padding: 50px;
+}
+/*FOOTER*/
+
+.superfooter {
+  border-top: 1px solid rgba(27, 24, 31, 0.3);
+  background-color: #fffbca;
+}
+
+.footer_bar {
+  font-style: italic;
+  text-align: center;
+}
+
+.logo_bottom {
+  float: left;
+  width: 20%;
+  margin-top: 0px;
+}
+
+.copy {
+  float: left;
+  margin: 30px 30px;
+}
